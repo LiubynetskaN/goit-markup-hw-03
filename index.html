@@ -18,21 +18,19 @@
   <body class="body">
     <!--Головний блок-->
     <header class="header">
-      <div class="container container-header">
+      <div class="container">
       
         <a href="/" class="header-logo logo link" lang="en"
           ><span class="header-accent-first">Web</span
-          ><span class="header-accent-second">Studio</span></a
-        >
-      
-      
-        <nav class="container header-nav ">
+          ><span class="header-accent-second">Studio</span></a>
+          
+        <nav class="header-nav ">
           <ul class="header-nav-items items">
             <li class="header-item item">
               <a class="header-nav-link link current" href="./index.html"
-                >Студія</a
-              >
+                >Студія</a>
             </li>
+           
             <li class="header-item item">
               <a class="header-nav-link link" href="./portfolio.html"
                 >Портфоліо</a
@@ -44,7 +42,7 @@
           </ul>
         </nav>
            
-        <ul class="container header-contacts items">
+        <ul class="header-contacts items">
           <li class="header-contact">
             <a class="header-mail-link link" href="mailto:ingo@devstudio.com"
               >info@devstudio.com</a
@@ -56,12 +54,12 @@
             >
           </li>
         </ul>
-       </div>
+            </div>
     </header>
 
     <main class="studio-main">
-      <section class="container hero">
-        
+      <section class="hero">
+       <div class="container">
           <h1 class="hero-title">
             ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />
             ВАШОГО БІЗНЕСУ
@@ -69,7 +67,7 @@
           <button class="hero-button button" type="button">
             Замовити послугу
           </button>
-        
+        </div> 
       </section>
 
       <section class="benefits">
@@ -147,40 +145,51 @@
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-items items">
-            <li class="team-item item">
-              <img
+               <li class="team-item item">
+                <div class="team-profile">
+                  <img
                 class="team-img"
                 src="images/teamcard1.jpg"
                 alt="Product Designer"
                 width="270"
               />
+              
               <h3 class="team-subtitle">Ігор Дем'яненко</h3>
               <p class="team-desc" lang="en">Product Designer</p>
+            </div>
             </li>
 
             <li class="team-item item">
-              <img
+              <div class="team-profile">
+                <img
                 class="team-img"
                 src="images/teamcard2.jpg"
                 alt="Frontend Developer"
                 width="270"
               />
+              
               <h3 class="team-subtitle">Ольга Рєпіна</h3>
               <p class="team-desc" lang="en">Frontend Developer</p>
+            </div>
             </li>
 
             <li class="team-item item">
-              <img
+              
+              <div class="team-profile">
+                <img
                 class="team-img"
                 src="images/teamcard3.jpg"
                 alt="Marketing"
                 width="270"
               />
+              
               <h3 class="team-subtitle">Микола Тарасов</h3>
               <p class="team-desc" lang="en">Marketing</p>
+            </div>
             </li>
 
             <li class="team-item item">
+              <div class="team-profile">
               <img
                 class="team-img"
                 src="images/teamcard4.jpg"
@@ -189,6 +198,7 @@
               />
               <h3 class="team-subtitle">Михайло Єрмаков</h3>
               <p class="team-desc" lang="en">UI Designer</p>
+            </div>
             </li>
           </ul>
         </div>
@@ -196,7 +206,8 @@
     </main>
 
     <!-- Підвал -->
-    <footer class="footer container">
+    <footer class="footer">
+      <div class="container">
               <a href="/" class="footer-logo logo link" lang="en"
           ><span class="footer-accent-first">Web</span
           ><span class="footer-accent-second">Studio</span></a
@@ -225,6 +236,7 @@
             </li>
           </ul>
         </address>
+      </div>
       </footer>
   </body>
 </html>
