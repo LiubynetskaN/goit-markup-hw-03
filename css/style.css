@@ -135,6 +135,7 @@ ul {
 /* Hero styles */
 
 .hero {
+  margin: 0 auto;
   text-align: center;
   padding: 200px 0;
 
